@@ -1,0 +1,6 @@
+SELECT CASE 
+                WHEN field IS NULL THEN 'Empty' 
+                WHEN ...            THEN ...
+                WHEN ...            THEN ...           
+                ELSE field 
+        END AS field_alias;

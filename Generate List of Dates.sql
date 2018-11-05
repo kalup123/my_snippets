@@ -1,0 +1,1 @@
+SELECT now()::date - generate_series(0,59)
